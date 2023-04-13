@@ -4,6 +4,7 @@ import '@testing-library/jest-dom'
 import userEvent from '@testing-library/user-event'
 import App from '../App'
 
+//Checked if it is copying when the emoji is clicked
 describe('Copy Emoji', () => {
   let item, text
   beforeEach(() => {

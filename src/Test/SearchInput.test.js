@@ -4,6 +4,7 @@ import '@testing-library/jest-dom'
 import userEvent from '@testing-library/user-event'
 import App from '../App'
 
+//Value was added in the input and it was checked whether the value value exists in the document
 describe('Filter Emoji', () => {
   let input
   beforeEach(() => {
